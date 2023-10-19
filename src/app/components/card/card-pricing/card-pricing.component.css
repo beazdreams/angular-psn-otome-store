@@ -1,0 +1,25 @@
+.pricing-container {
+    position:absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #00000085;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.6em
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+}
+
+.console {
+    margin-bottom: .2em;
+}
+
+h3, .console, .pricing-container {
+    color: antiquewhite
+}
